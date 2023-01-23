@@ -1,0 +1,79 @@
+#canvas {
+    border : 1px solid;
+    width : 800px;
+    height : 550px;
+
+    position: absolute;
+    left: 371px;
+    top: 145px;
+}
+
+body { 
+    background: #2C2E25;
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    background: url(Komponen/Background.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat
+}
+
+#Nyawa1{
+    position: absolute;
+    width: 20px;
+    height:28px;
+    left: 80px;
+    top: 260px;    
+    background: url(Komponen/Blood.png);
+}
+
+#Nyawa2 {
+    position: absolute;
+    width: 20px;
+    height:28px;
+    left: 80px;
+    top: 330px;
+    background: url(Komponen/Blood.png);
+}
+
+#Nyawa3 {
+    position: absolute;
+    width: 20px;
+    height:28px;
+    left: 80px;
+    top: 403px;    
+    background: url(Komponen/Blood.png);
+ 
+}
+
+#Scoreview{
+    position: absolute;
+    width: 31px;
+    height: 120px;
+    left: 78px;
+    top: 600px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 120px;
+    color: #FF890E;
+
+}
+
+.Resetgame{
+    position: absolute;
+    width: 94px;
+    height: 58px;
+    left: 23px;
+    top: 10px;
+}
+
+.Resetgame.img{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+
